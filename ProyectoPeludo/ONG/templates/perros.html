@@ -1,0 +1,125 @@
+{%load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+
+<head>
+  <link rel="shortcut icon" href="{% static '../static/images/icono.png'%}">
+  <title>Perros</title>
+  <style>
+    header,footer{
+      background-color:#DDBEA9;
+     text-align: center;
+    }
+    h2{
+      color:#D4A373;
+      font-size:"200%";
+    }
+    article{
+      background-color:#CCD5AE;
+    }
+  </style>
+</head>
+
+  
+            
+<body style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;background-color:#FFE8D6;margin-left: 50px;margin-right: 50px;">
+  <header>
+    <h1>
+    <img src="{% static '../static/images/icono.png'%}" alt="icono_header1"
+        width="50" 
+        height="50" />
+    ONG - AYUDA A UN PELUDO
+    <img src="{% static '../static/images/icono.png'%}" alt="icono_header2"
+    width="50" 
+    height="50" /></h1>
+
+
+</header>
+
+<nav class="Listas y link">
+  <ul>
+      <li><a href="../">Inicio</a>
+          <li><a href="../gatos">Ir a gatos</a></li>
+      </nav>
+ 
+<Section>
+  <br>
+  <h1 style= "font-size:250%; text-align:center;"> Perros en adopción </h1>
+  <center>
+  <img src="{% static '../static/images/perritos.png'%}" width="310" height="60"/>
+  <br>
+  <h2>¿Quieres adoptar un perrito y no sabes dónde empezar a buscar?</h2>
+  <article>
+  <p Style="font-size:200%;">No te preocupes, acá tenemos perritos que buscan un hogar y sin duda vas a amar.</p>
+</center>
+</article>
+<h2>A continuación, biografia de los perritos que puedes adoptar.</h2>
+ 
+ <br>
+
+<table border="0" width="95%" height="auto"><tr>
+
+
+  <td><center><img src="{% static '../static/images/lipiga.jpg'%}"  width="300" height="300" border=""></center>
+  <p> Luchito es un perrito que <br>
+    anteriormente vivia 
+    en la calle hasta <br>
+    que lo refugiamos. <br>
+    Actualmente se desconoce <br>
+    su edad pero
+    según los veterianos <br>
+    tiene apróximadamente 4 años.</p>
+   <h6>Para más información de luchito, aprete el siguiente link. -></h6>
+   <a href="luchito">Luchito</a>
+  </td>
+  <td><center><img src="{% static '../static/images/matapaco.jpg'%}"  width="300" height="300" border="0"></center>
+  <p> Bizcochito es un perrito que <br>
+      anteriormente vivia en la calle hasta <br>
+      que lo refugiamos. <br>
+      Al principio era desconfiado <br>
+      pero al pasar el tiempo<br>
+      se volvió un perro cariñoso <br>
+      que defiende a su amo.
+  </p>
+  <h6>Para más información de bizcochito, aprete el siguiente link. -></h6>
+  <a href="bizcochito">Bizcochito</a>
+  </td>
+ <br>
+  <td><center><img src="{% static '../static/images/perritochocolatemm.png'%}"  width="300" height="300" border="0"></center>
+  <p> Chocolate es un perrito <br>
+    fue abandonado por sus dueños <br>
+    a muy corta edad <br>
+    lo encontramos en estado deplorables <br>
+    pero con tratamiento se mejoro <br>
+    y ahora es un perro energetico <br>
+    obendiente, convirtiendose en tu mejor amigo.
+  </p>
+  <h6>Para más información de Chocolate, aprete el siguiente link. -></h6>
+  <a href="chocolate">Chocolate</a>
+
+  </td>
+  </tr>
+</table>
+</Section>
+
+<footer>
+  <table align="right" style="background-color:#DDBEA9">
+    <tr>
+      <th style="font-size: 100%;"><b>@Todos los derechos reservados 2022</b></th>
+      <th><a href="https://www.instagram.com"><img src="{% static '../static/images/icono_instagram.png'%}" alt="icono_instagram"
+        width="30"
+        height="30"></a></th>
+
+      <th><a href="https://www.facebook.com"><img src="{% static '../static/images/icono_facebook.png'%}" alt="icono_instagram"
+        width="30"
+        height="30"></a></th>
+      <th><a href="https://www.twitter.com"><img src="{% static '../static/images/icono_twitter.png'%}" alt="icono_instagram"
+        width="30"
+        height="25"></a></th>
+
+</footer>
+</body>
+</html>
